@@ -1,0 +1,9 @@
+rule_id,rule_name,description,severity_hint
+P01,Hotel city cap,"Compare nightly hotel rate to hotel_rate_caps.csv for the destination city. Exceptions can be legitimate, but should be reviewed if materially over cap.",Medium
+P02,Advance purchase,"Flights should generally be booked at least 7 days before domestic travel and 14 days before international travel. Treat as an opportunity signal, not a hard violation.",Low
+P03,Use managed booking channel,"Airfare and hotel spend should usually link back to a TMC booking, OBT search, or clear reason for direct booking.",Medium
+P04,Expense-card reconciliation,Large card transactions should have a matching expense line or clear offsetting credit/refund. Duplicate expenses for the same receipt should be reviewed.,High
+P05,Active employee,Travel by inactive employees or missing HR identities should be reviewed before payment or reimbursement.,High
+P06,Itinerary geography,"Card/expense activity during a trip should generally align with the origin, destination, or normal transit path. Unexpected cities are review-worthy, not automatically wrong.",Medium
+P07,Trip date alignment,Hotel check-in/check-out should roughly align with flight dates. Extra nights may be valid but should be explainable.,Medium
+P08,Exchanges and credits,"Canceled segments, refunds, ticket credits, and reissued fares should be netted carefully to avoid double-counting.",High

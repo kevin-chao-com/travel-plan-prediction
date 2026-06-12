@@ -1,0 +1,44 @@
+expense_line_id,report_id,submitter_name,submitter_email,employee_id_reported,transaction_date,merchant_name,city,country,amount_usd,currency,expense_category,reimbursement_status,receipt_text,claimed_booking_ref,comments
+X3001,R5001,Maya Chen,maya.chen@acmebiotech.com,E1001,2025-02-14,United Airlines,London,GB,875,USD,Airfare,Approved,UA e-ticket H8M2KQ LHR-SFO return.,H8M2KQ,
+X3002,R5001,Maya Chen,maya.chen@acmebiotech.com,E1001,2025-03-08,Harbor View Union Square,San Francisco,US,1680,USD,Lodging,Approved,"Hotel folio 5 nights, Harbor View Union Square.",H8M2KQ,
+X3003,R5001,Maya Chen,maya.chen@acmebiotech.com,E1001,2025-03-04,Lyft,San Francisco,US,62,USD,Ground transport,Approved,Lyft from SFO to hotel.,H8M2KQ,
+X3004,R5002,Ethan Patel,e.patel@acmebiotech.com,E1002,2025-03-06,Delta Air Lines,New York,US,735,USD,Airfare,Approved,Delta ticket AUS4QP; selected early arrival for workshop.,AUS4QP,
+X3005,R5002,Ethan Patel,e.patel@acmebiotech.com,E1002,2025-03-13,Austin Central Marriott,Austin,US,840,USD,Lodging,Approved,Hotel folio 3 nights.,AUS4QP,
+X3006,R5002,Ethan Patel,e.patel@acmebiotech.com,E1002,2025-03-11,Torchy's Tacos,Austin,US,86,USD,Meals,Approved,Team meal during Product Council.,AUS4QP,
+X3007,R5003,Sofia Rossi,sofia.rossi@acmebiotech.com,E1003,2025-03-07,KLM Royal Dutch,Amsterdam,NL,330,USD,Airfare,Approved,KLM BER8CT AMS-BER return.,BER8CT,
+X3008,R5003,Sofia Rossi,sofia.rossi@acmebiotech.com,E1003,2025-03-17,Berlin Central Hotel,Berlin,DE,510,USD,Lodging,Approved,"Hotel folio 2 nights, Berlin Central.",BER8CT,
+X3009,R5004,Sofia Rossi,sofia.rossi@acmebiotech.com,E1003,2025-03-17,Berlin Central Hotel,Berlin,DE,510,USD,Lodging,Pending,Same hotel folio uploaded again after report correction.,BER8CT,Potential duplicate of R5003 line.
+X3010,R5005,Noah Garcia,noah.garcia@acmebiotech.com,E1004,2025-03-03,American Airlines,San Francisco,US,900,USD,Airfare,Approved,AA e-ticket NYC2HX.,NYC2HX,
+X3011,R5005,Noah Garcia,noah.garcia@acmebiotech.com,E1004,2025-03-24,Westin Times Square,New York,US,1510,USD,Lodging,Approved,Westin folio 4 nights.,NYC2HX,
+X3012,R5006,Priya Shah,priya.shah@acmebiotech.com,E1060,2025-03-21,British Airways,Bengaluru,IN,1410,USD,Airfare,Approved,BA ticket LON7ML.,LON7ML,Employee ID in expense matches erroneous TMC profile.
+X3013,R5006,Priya Shah,priya.shah@acmebiotech.com,E1060,2025-04-07,The Hoxton Holborn,London,GB,1197,USD,Lodging,Approved,The Hoxton Holborn folio 5 nights.,LON7ML,
+X3014,R5007,Daniel Kim,dkim@acmebiotech.com,E1007,2025-04-06,Alaska Airlines,Seattle,US,565,USD,Airfare,Approved,AS e-ticket LAS9GO.,LAS9GO,
+X3015,R5007,Daniel Kim,dkim@acmebiotech.com,E1007,2025-04-13,Cosmopolitan Las Vegas,Las Vegas,US,1673,USD,Lodging,Approved,3 nights @ 489 + taxes.,LAS9GO,Manager note: conference hotel sold out.
+X3016,R5007,Daniel Kim,dkim@acmebiotech.com,E1007,2025-04-12,Cosmopolitan Resort Fee,Las Vegas,US,95,USD,Fees,Approved,Mandatory resort fee.,LAS9GO,
+X3017,R5008,Liv Martin,olivia.martin@acmebiotech.com,E1008,2025-04-09,United Airlines,Chicago,US,1190,USD,Airfare,Pending,United ticket LON3LM.,LON3LM,Submitted after employee termination date.
+X3018,R5008,Liv Martin,olivia.martin@acmebiotech.com,E1008,2025-04-22,London Bridge Hotel,London,GB,1619,USD,Lodging,Pending,London Bridge Hotel folio 4 nights.,LON3LM,Submitted after employee termination date.
+X3019,R5009,Marcus Johnson,marcus.johnson@acmebiotech.com,E1009,2025-04-14,Delta Air Lines,Atlanta,US,620,USD,Airfare,Approved,Delta ticket MIA5CS.,MIA5CS,
+X3020,R5009,Marcus Johnson,marcus.johnson@acmebiotech.com,E1009,2025-05-02,Miami Beach Resort,Miami,US,2240,USD,Lodging,Pending,Hotel folio Apr 25-May 2.,MIA5CS,Client meeting ended Apr 30; traveler note says 'stayed weekend'.
+X3021,R5010,Aisha Khan,aisha.khan@acmebiotech.com,E1010,2025-04-22,Emirates,Dubai,AE,1780,USD,Airfare,Approved,Emirates ticket SIN1PK.,SIN1PK,
+X3022,R5010,Aisha Khan,aisha.khan@acmebiotech.com,E1010,2025-05-09,Orchid Marina Bay,Singapore,SG,1414,USD,Lodging,Approved,Orchid Marina Bay 4 nights.,SIN1PK,
+X3023,R5010,Aisha Khan,aisha.khan@acmebiotech.com,E1010,2025-05-07,Siam Wellness Spa,Bangkok,TH,310,USD,Wellness,Pending,"Siam Wellness receipt, Bangkok.",SIN1PK,City not on itinerary.
+X3024,R5010,Aisha Khan,aisha.khan@acmebiotech.com,E1010,2025-05-06,Grab Taxi,Singapore,SG,48,USD,Ground transport,Approved,Taxi from SIN airport.,SIN1PK,
+X3025,R5011,Emma Wilson,emma.wilson@acmebiotech.com,E1012,2025-05-08,Frontier Airlines,Boston,US,420,USD,Airfare,Approved,Frontier confirmation Z9EMMA; no Concur/TMC locator.,,
+X3026,R5011,Emma Wilson,emma.wilson@acmebiotech.com,E1012,2025-05-15,Denver Union Hotel,Denver,US,702,USD,Lodging,Approved,Hotel folio 3 nights.,,
+X3027,R5012,Ava Nunez,ava.nunez@acmebiotech.com,E1013,2025-05-05,Iberia,Madrid,ES,240,USD,Airfare,Approved,Iberia ticket LIS6AE for A. Nunez.,LIS6AE,
+X3028,R5012,Ava Nunez,ava.nunez@acmebiotech.com,E1013,2025-05-21,Lisboa Riverside Inn,Lisbon,PT,410,USD,Lodging,Approved,Hotel folio 2 nights.,LIS6AE,
+X3029,R5013,Samuel Okafor,sam.okafor@acmebiotech.com,E1014,2025-05-10,Lufthansa,London,GB,420,USD,Airfare,Approved,LH ticket MUC5SO.,MUC5SO,
+X3030,R5013,Samuel Okafor,sam.okafor@acmebiotech.com,E1014,2025-05-29,MCH City Hotel,Munich,DE,718,USD,Lodging,Approved,Folio says Muenchen City Hotel.,MUC5SO,
+X3031,R5014,Grace Lee,grace.lee@acmebiotech.com,E1015,2025-05-18,Japan Airlines,Los Angeles,US,2300,USD,Airfare,Approved,Reissued JAL return after exchange; credit appears on card feed.,JPN7GL,
+X3032,R5014,Grace Lee,grace.lee@acmebiotech.com,E1015,2025-06-10,Tokyo Station Hotel,Tokyo,JP,2912,USD,Lodging,Approved,Tokyo Station folio 7 nights.,JPN7GL,
+X3033,R5014,Grace Lee,grace.lee@acmebiotech.com,E1015,2025-06-05,Nihonbashi Board Dinner,Tokyo,JP,840,USD,Meals,Approved,Board-prep dinner with 8 attendees.,JPN7GL,
+X3034,R5015,Mei Tan,mei.tan@acmebiotech.com,E1021,2025-06-15,Sydney Harbour Suites,Sydney,AU,1355,USD,Lodging,Pending,Hotel folio; OBT air status says held.,SYD2MT,
+X3035,R5016,J. Smith,jsmith@acmebiotech.com,E1022,2025-06-05,American Airlines,Denver,US,350,USD,Airfare,Approved,AA ticket DAL4JS.,DAL4JS,
+X3036,R5016,J. Smith,jsmith@acmebiotech.com,E1022,2025-06-19,Hilton Dallas North,Dallas,US,480,USD,Lodging,Approved,Hotel folio Dallas.,DAL4JS,
+X3037,R5017,Jon Smyth,jon.smyth@acmebiotech.com,E1023,2025-06-05,Southwest Airlines,Dallas,US,315,USD,Airfare,Approved,WN ticket DEN4JY.,DEN4JY,
+X3038,R5017,Jon Smyth,jon.smyth@acmebiotech.com,E1023,2025-06-19,Denver Renaissance,Denver,US,450,USD,Lodging,Approved,Hotel folio Denver.,DEN4JY,
+X3039,R5018,Karim Haddad,k.haddad@acmebiotech.com,E1018,2025-06-12,Eurostar,Paris,FR,175,USD,Rail,Approved,Eurostar Paris-London return.,,
+X3040,R5018,Karim Haddad,k.haddad@acmebiotech.com,E1018,2025-06-25,London Bridge Hotel,London,GB,716,USD,Lodging,Approved,Hotel folio 2 nights.,,
+X3041,R5018,Karim Haddad,k.haddad@acmebiotech.com,E1018,2025-06-24,Pret a Manger,London,GB,32,USD,Meals,Approved,Lunch near audit site.,,
+X3042,R5019,Grace Lee,grace.lee@acmebiotech.com,E1015,2025-06-10,Acme Travel Desk,San Francisco,US,1980,USD,Guest travel,Pending,"Guest speaker Casey Reed flight+hotel package, locator SFO9CR.",SFO9CR,Submitter is sponsor; traveler is not in HR.
+X3043,R5020,Lina Morgan,lina.morgan@acmebiotech.com,E1005,2025-03-05,CloudBooks SaaS,London,GB,89,USD,Software,Approved,Monthly SaaS renewal.,,Non-travel corporate card expense.

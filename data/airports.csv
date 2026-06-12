@@ -1,0 +1,27 @@
+airport_code,airport_name,city,country
+LHR,London Heathrow,London,GB
+SFO,San Francisco Intl,San Francisco,US
+JFK,John F. Kennedy Intl,New York,US
+AUS,Austin-Bergstrom,Austin,US
+AMS,Amsterdam Schiphol,Amsterdam,NL
+BER,Berlin Brandenburg,Berlin,DE
+BLR,Kempegowda Intl,Bengaluru,IN
+SEA,Seattle-Tacoma,Seattle,US
+LAS,Harry Reid Intl,Las Vegas,US
+ORD,Chicago O'Hare,Chicago,US
+ATL,Hartsfield-Jackson Atlanta,Atlanta,US
+MIA,Miami Intl,Miami,US
+DXB,Dubai Intl,Dubai,AE
+SIN,Singapore Changi,Singapore,SG
+BOS,Boston Logan,Boston,US
+DEN,Denver Intl,Denver,US
+MAD,Adolfo Suarez Madrid-Barajas,Madrid,ES
+LIS,Lisbon Humberto Delgado,Lisbon,PT
+MUC,Munich Intl,Munich,DE
+LAX,Los Angeles Intl,Los Angeles,US
+HND,Tokyo Haneda,Tokyo,JP
+SYD,Sydney Kingsford Smith,Sydney,AU
+CDG,Paris Charles de Gaulle,Paris,FR
+DFW,Dallas/Fort Worth,Dallas,US
+DAL,Dallas Love Field,Dallas,US
+BKK,Suvarnabhumi,Bangkok,TH

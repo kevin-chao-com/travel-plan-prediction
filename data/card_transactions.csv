@@ -1,0 +1,46 @@
+card_txn_id,employee_name_on_card,employee_email,transaction_date,post_date,merchant_name,merchant_city,merchant_country,amount_usd,currency,merchant_category,card_last4,approval_code,card_notes
+C2001,Maya Chen,maya.chen@acmebiotech.com,2025-02-14,2025-02-16,United Airlines,London,GB,875,USD,Airfare,1001,A371706,
+C2002,Maya Chen,maya.chen@acmebiotech.com,2025-03-08,2025-03-11,Harbor View Union Square,San Francisco,US,1680,USD,Lodging,1001,A255570,
+C2003,Maya Chen,maya.chen@acmebiotech.com,2025-03-04,2025-03-05,Lyft,San Francisco,US,62,USD,Ground transport,1001,A235339,
+C2004,Ethan Patel,e.patel@acmebiotech.com,2025-03-06,2025-03-08,Delta Air Lines,New York,US,735,USD,Airfare,1002,A388607,
+C2005,Ethan Patel,e.patel@acmebiotech.com,2025-03-13,2025-03-15,Austin Central Marriott,Austin,US,840,USD,Lodging,1002,A441014,
+C2006,Ethan Patel,e.patel@acmebiotech.com,2025-03-11,2025-03-14,Torchy's Tacos,Austin,US,86,USD,Meals,1002,A151821,
+C2007,Sofia Rossi,sofia.rossi@acmebiotech.com,2025-03-07,2025-03-10,KLM Royal Dutch,Amsterdam,NL,330,USD,Airfare,1003,A767711,
+C2008,Sofia Rossi,sofia.rossi@acmebiotech.com,2025-03-17,2025-03-18,Berlin Central Hotel,Berlin,DE,510,USD,Lodging,1003,A787894,
+C2009,Noah Garcia,noah.garcia@acmebiotech.com,2025-03-03,2025-03-05,American Airlines,San Francisco,US,900,USD,Airfare,1004,A322641,
+C2010,Noah Garcia,noah.garcia@acmebiotech.com,2025-03-24,2025-03-26,Westin Times Square,New York,US,1510,USD,Lodging,1004,A846796,
+C2011,Noah Garcia,noah.garcia@acmebiotech.com,2025-03-23,2025-03-24,MTA MetroCard,New York,US,18,USD,Ground transport,1004,A364019,Small card charge not in expense file.
+C2012,Priya Shah,priya.shah@acmebiotech.com,2025-03-21,2025-03-22,British Airways,Bengaluru,IN,1410,USD,Airfare,1006,A753826,
+C2013,Priya Shah,priya.shah@acmebiotech.com,2025-04-07,2025-04-10,The Hoxton Holborn,London,GB,1197,USD,Lodging,1006,A500421,
+C2014,Daniel Kim,dkim@acmebiotech.com,2025-04-06,2025-04-08,Alaska Airlines,Seattle,US,565,USD,Airfare,1007,A550019,
+C2015,Daniel Kim,dkim@acmebiotech.com,2025-04-13,2025-04-16,Cosmopolitan Las Vegas,Las Vegas,US,1673,USD,Lodging,1007,A563820,High hotel rate relative to policy.
+C2016,Daniel Kim,dkim@acmebiotech.com,2025-04-12,2025-04-14,Cosmopolitan Resort Fee,Las Vegas,US,95,USD,Fees,1007,A865174,Ancillary fee on same hotel stay.
+C2017,Olivia Martin,olivia.martin@acmebiotech.com,2025-04-09,2025-04-12,United Airlines,Chicago,US,1190,USD,Airfare,1008,A300377,Traveler inactive in HR by trip date.
+C2018,Olivia Martin,olivia.martin@acmebiotech.com,2025-04-22,2025-04-24,London Bridge Hotel,London,GB,1619,USD,Lodging,1008,A906431,Traveler inactive in HR by trip date.
+C2019,Marcus Johnson,marcus.johnson@acmebiotech.com,2025-04-14,2025-04-15,Delta Air Lines,Atlanta,US,620,USD,Airfare,1009,A109103,
+C2020,Marcus Johnson,marcus.johnson@acmebiotech.com,2025-05-02,2025-05-03,Miami Beach Resort,Miami,US,2240,USD,Lodging,1009,A902227,Hotel checkout extends beyond flight return.
+C2021,Aisha Khan,aisha.khan@acmebiotech.com,2025-04-22,2025-04-23,Emirates,Dubai,AE,1780,USD,Airfare,1010,A786341,
+C2022,Aisha Khan,aisha.khan@acmebiotech.com,2025-05-09,2025-05-11,Orchid Marina Bay,Singapore,SG,1414,USD,Lodging,1010,A577006,
+C2023,Aisha Khan,aisha.khan@acmebiotech.com,2025-05-07,2025-05-08,Siam Wellness Spa,Bangkok,TH,310,USD,Wellness,1010,A227907,City is not origin or destination for this itinerary.
+C2024,Aisha Khan,aisha.khan@acmebiotech.com,2025-05-06,2025-05-07,Grab Taxi,Singapore,SG,48,USD,Ground transport,1010,A430071,
+C2025,Emma Wilson,emma.wilson@acmebiotech.com,2025-05-08,2025-05-10,Frontier Airlines,Boston,US,420,USD,Airfare,1012,A275360,No TMC booking found.
+C2026,Emma Wilson,emma.wilson@acmebiotech.com,2025-05-15,2025-05-18,Denver Union Hotel,Denver,US,702,USD,Lodging,1012,A557327,No TMC booking found.
+C2027,AV Nunez,ava.nunez@old-acme.com,2025-05-05,2025-05-06,Iberia,Madrid,ES,240,USD,Airfare,1013,A773848,Old email domain.
+C2028,AV Nunez,ava.nunez@old-acme.com,2025-05-21,2025-05-23,Lisboa Riverside Inn,Lisbon,PT,410,USD,Lodging,1013,A646884,
+C2029,Samuel Okafor,sam.okafor@acmebiotech.com,2025-05-10,2025-05-11,Lufthansa,London,GB,420,USD,Airfare,1014,A744611,
+C2030,Samuel Okafor,sam.okafor@acmebiotech.com,2025-05-29,2025-06-01,MCH City Hotel,Munich,DE,718,USD,Lodging,1014,A747384,Merchant alias for Muenchen City Hotel.
+C2031,Grace Lee,grace.lee@acmebiotech.com,2025-05-15,2025-05-16,Japan Airlines,Los Angeles,US,1920,USD,Airfare,1015,A951889,Original outbound+return authorization.
+C2032,Grace Lee,grace.lee@acmebiotech.com,2025-05-18,2025-05-19,JAL Ticket Credit,Los Angeles,US,-1920,USD,Airfare refund,1015,A342202,Credit for original return exchange.
+C2033,Grace Lee,grace.lee@acmebiotech.com,2025-05-18,2025-05-20,Japan Airlines,Los Angeles,US,2300,USD,Airfare,1015,A758501,Reissued return ticket after exchange.
+C2034,Grace Lee,grace.lee@acmebiotech.com,2025-06-10,2025-06-13,Tokyo Station Hotel,Tokyo,JP,2912,USD,Lodging,1015,A383823,
+C2035,Grace Lee,grace.lee@acmebiotech.com,2025-06-05,2025-06-06,Nihonbashi Board Dinner,Tokyo,JP,840,USD,Meals,1015,A815758,Board-prep dinner; high amount but plausible.
+C2036,Mei Tan,mei.tan@acmebiotech.com,2025-06-15,2025-06-16,Sydney Harbour Suites,Sydney,AU,1355,USD,Lodging,1021,A968030,"Hotel confirmed, but air ticket is held."
+C2037,John Smith,jsmith@acmebiotech.com,2025-06-05,2025-06-08,American Airlines,Denver,US,350,USD,Airfare,1022,A982825,
+C2038,John Smith,jsmith@acmebiotech.com,2025-06-19,2025-06-22,Hilton Dallas North,Dallas,US,480,USD,Lodging,1022,A920775,
+C2039,Jon Smyth,jon.smyth@acmebiotech.com,2025-06-05,2025-06-06,Southwest Airlines,Dallas,US,315,USD,Airfare,1023,A299420,
+C2040,Jon Smyth,jon.smyth@acmebiotech.com,2025-06-19,2025-06-21,Denver Renaissance,Denver,US,450,USD,Lodging,1023,A722432,
+C2041,Karim Haddad,k.haddad@acmebiotech.com,2025-06-12,2025-06-14,Eurostar,Paris,FR,175,USD,Rail,1018,A530107,
+C2042,Karim Haddad,k.haddad@acmebiotech.com,2025-06-25,2025-06-27,London Bridge Hotel,London,GB,716,USD,Lodging,1018,A327825,
+C2043,Karim Haddad,k.haddad@acmebiotech.com,2025-06-24,2025-06-26,Pret a Manger,London,GB,32,USD,Meals,1018,A999761,
+C2044,Lina Morgan,lina.morgan@acmebiotech.com,2025-03-05,2025-03-08,CloudBooks SaaS,London,GB,89,USD,Software,1005,A816418,Not travel; corporate card feed contains non-travel spend.
+C2045,Henry Liu,henry.liu@acmebiotech.com,2025-03-12,2025-03-13,SFO Daily Parking,San Francisco,US,28,USD,Parking,1011,A933202,"Local ops errand, not a trip."

@@ -1,0 +1,17 @@
+booking_id,traveler_name,traveler_email,traveler_employee_id,booking_date,trip_start_date,trip_end_date,origin_airport,destination_airport,destination_city,record_locator,source_channel,booking_status,itinerary_type,total_booked_amount_usd,currency,trip_purpose,project_code,booking_notes
+B1001,Maya C.,maya.c@acmebiotech.com,,2025-02-14,2025-03-03,2025-03-08,LHR,SFO,San Francisco,H8M2KQ,OBT,Ticketed,Flight+hotel,2685,USD,Sales kickoff,REV-SK25,Booked through OBT after team kickoff invite.
+B1002,Ethan Patel,e.patel@acmebiotech.com,E1002,2025-03-06,2025-03-10,2025-03-13,JFK,AUS,Austin,AUS4QP,OBT,Ticketed,Flight+hotel,1775,USD,Product council,PROD-Q2,Selected later departure; see OBT notes.
+B1003,Sofia Rossi,sofia.rossi@acmebio.com,E1003,2025-03-07,2025-03-15,2025-03-17,AMS,BER,Berlin,BER8CT,Agent,Ticketed,Flight+hotel,840,USD,Client workshop,CUST-BER,Legacy email domain in traveler profile.
+B1004,Noah Garcia,noah.garcia@acmebiotech.com,E1004,2025-03-03,2025-03-20,2025-03-24,SFO,JFK,New York,NYC2HX,OBT,Ticketed,Flight+hotel,2250,USD,Investor QBR,REV-NYC,QBR itinerary.
+B1005,Priya S.,priya.s@acmebiotech.com,E1060,2025-03-21,2025-04-02,2025-04-07,BLR,LHR,London,LON7ML,Agent,Ticketed,Flight+hotel,2530,USD,ML summit,ENG-ML,Employee ID typo created during profile migration.
+B1006,Dan Kim,dkim@acmebiotech.com,E1007,2025-04-06,2025-04-10,2025-04-13,SEA,LAS,Las Vegas,LAS9GO,OBT,Ticketed,Flight+hotel,2032,USD,Growth offsite,MKT-OFFSITE,Exception noted: conference hotel sold out except premium rooms.
+B1007,Liv Martin,olivia.martin@acmebiotech.com,E1008,2025-04-09,2025-04-18,2025-04-22,ORD,LHR,London,LON3LM,Agent,Ticketed,Flight+hotel,2610,USD,Legal review,LEGAL-UK,Booking created after HR termination date.
+B1008,M. Johnson,marcus.johnson@acmebiotech.com,E1009,2025-04-14,2025-04-25,2025-04-30,ATL,MIA,Miami,MIA5CS,OBT,Ticketed,Flight+hotel,2860,USD,Client renewal,CUST-MIA,Hotel check-out differs from return flight.
+B1009,Aisha Al Khan,aisha.khan@acmebiotech.com,E1010,2025-04-22,2025-05-05,2025-05-09,DXB,SIN,Singapore,SIN1PK,Agent,Ticketed,Flight+hotel,3520,USD,Partner launch,PARTNER-SG,Partner launch.
+B1011,A. Nunez,ava.nunez@old-acme.com,,2025-05-05,2025-05-19,2025-05-21,MAD,LIS,Lisbon,LIS6AE,OBT,Ticketed,Flight+hotel,720,USD,Sales deal desk,REV-LIS,Old email domain; accent stripped in TMC.
+B1012,Sam Okafor,sam.okafor@acmebiotech.com,,2025-05-10,2025-05-26,2025-05-29,LHR,MUC,Munich,MUC5SO,Agent,Ticketed,Flight+hotel,1050,USD,Hiring fair,ENG-HIRE,No employee ID in TMC export.
+B1013,G Lee,grace.lee@acmebiotech.com,E1015,2025-05-15,2025-06-03,2025-06-10,LAX,HND,Tokyo,JPN7GL,Agent,Exchanged,Flight+hotel,4220,USD,Board prep,EXEC-JP,Return flight exchanged; old return retained in segment table.
+B1014,Mei Tan,mei.tan@acmebiotech.com,E1021,2025-06-01,2025-06-11,2025-06-15,SIN,SYD,Sydney,SYD2MT,OBT,On hold - not ticketed,Hotel+air search,1680,USD,Product research,PROD-AU,"OBT shows booked hotel, but TMC air ticket status is on hold."
+B1015,John Smith,jsmith@acmebiotech.com,E1022,2025-06-05,2025-06-17,2025-06-19,DEN,DFW,Dallas,DAL4JS,OBT,Ticketed,Flight+hotel,910,USD,Support training,SUP-DAL,Support training Dallas.
+B1016,Jon Smyth,jon.smyth@acmebiotech.com,E1023,2025-06-05,2025-06-17,2025-06-19,DAL,DEN,Denver,DEN4JY,OBT,Ticketed,Flight+hotel,880,USD,Support training,SUP-DEN,Support training Denver.
+B1018,Casey Reed,casey.reed@guestkeynotes.io,,2025-06-10,2025-06-27,2025-06-29,JFK,SFO,San Francisco,SFO9CR,Agent,Ticketed,Guest travel,1980,USD,Guest speaker travel,EXEC-GUEST,No HR employee record; sponsored by Executive team.

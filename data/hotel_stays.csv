@@ -1,0 +1,19 @@
+stay_id,booking_id,traveler_name,loyalty_name,hotel_name,hotel_city,check_in,check_out,nights,nightly_rate_usd,taxes_fees_usd,booking_status,source_channel,stay_notes
+H1001,B1001,Maya C.,,Harbor View Union Square,San Francisco,2025-03-03,2025-03-08,5,285,199.5,Confirmed,TMC,
+H1002,B1002,Ethan Patel,,Austin Central Marriott,Austin,2025-03-10,2025-03-13,3,280,117.6,Confirmed,TMC,
+H1003,B1003,Sofia Rossi,,Berlin Central Hotel,Berlin,2025-03-15,2025-03-17,2,225,63.0,Confirmed,TMC,
+H1004,B1004,Noah Garcia,,Westin Times Square,New York,2025-03-20,2025-03-24,4,330,184.8,Confirmed,TMC,
+H1005,B1005,Priya S.,,The Hoxton Holborn,London,2025-04-02,2025-04-07,5,210,147.0,Confirmed,TMC,Profile name shorthand.
+H1006,B1006,Dan Kim,,Cosmopolitan Las Vegas,Las Vegas,2025-04-10,2025-04-13,3,489,205.38,Confirmed,TMC,Conference hotel; higher than normal cap.
+H1007,B1007,Liv Martin,,London Bridge Hotel,London,2025-04-18,2025-04-22,4,355,198.8,Confirmed,TMC,Booking after HR inactive date.
+H1008,B1008,M. Johnson,,Miami Beach Resort,Miami,2025-04-25,2025-05-02,7,280,274.4,Confirmed,TMC,Check-out extends two nights beyond return flight.
+H1009,B1009,Aisha Al Khan,,Orchid Marina Bay,Singapore,2025-05-05,2025-05-09,4,310,173.6,Confirmed,TMC,
+H1010,,Emma Wilson,,Denver Union Hotel,Denver,2025-05-12,2025-05-15,3,205,86.1,Confirmed,Direct,No TMC booking_id in hotel feed.
+H1011,B1011,A. Nunez,,Lisboa Riverside Inn,Lisbon,2025-05-19,2025-05-21,2,180,50.4,Confirmed,TMC,Old email domain in booking.
+H1012,B1012,Sam Okafor,,Muenchen City Hotel,Munich,2025-05-26,2025-05-29,3,210,88.2,Confirmed,TMC,Hotel merchant later appears as 'MCH City'.
+H1013,B1013,G Lee,,Tokyo Station Hotel,Tokyo,2025-06-03,2025-06-10,7,365,357.7,Confirmed,TMC,Extended one night after return exchange.
+H1014,B1014,Mei Tan,,Sydney Harbour Suites,Sydney,2025-06-11,2025-06-15,4,295,165.2,Confirmed,OBT,Hotel confirmed while air remained on hold.
+H1015,B1015,John Smith,,Hilton Dallas North,Dallas,2025-06-17,2025-06-19,2,210,58.8,Confirmed,TMC,Do not confuse with Jon Smyth.
+H1016,B1016,Jon Smyth,,Denver Renaissance,Denver,2025-06-17,2025-06-19,2,198,55.44,Confirmed,TMC,Do not confuse with John Smith.
+H1017,,Karim Haddad,,London Bridge Hotel,London,2025-06-23,2025-06-25,2,315,88.2,Confirmed,HotelDirect,Train trip; no flight segment expected.
+H1018,B1018,Casey Reed,,Harbor View Union Square,San Francisco,2025-06-27,2025-06-29,2,310,86.8,Confirmed,Agent,"Guest speaker, no HR record."

@@ -1,0 +1,25 @@
+employee_id,legal_name,preferred_name,work_email,department,cost_center,manager_id,office_city,country,employment_status,start_date,end_date,title
+E1001,Maya Chen,Maya,maya.chen@acmebiotech.com,Sales,CC-410 Revenue,E1017,London,GB,Active,2022-04-18,,Enterprise Account Executive
+E1002,Ethan Patel,Ethan,e.patel@acmebiotech.com,Product,CC-220 Product,E1021,New York,US,Active,2021-09-07,,Senior Product Manager
+E1003,Sofia Rossi,Sofia,sofia.rossi@acmebiotech.com,Customer Success,CC-510 Customer,E1009,Amsterdam,NL,Active,2020-06-15,,Customer Success Lead
+E1004,Noah Garcia,Noah,noah.garcia@acmebiotech.com,Sales,CC-410 Revenue,E1017,San Francisco,US,Active,2019-11-04,,Regional Sales Director
+E1005,Lina Morgan,Lina,lina.morgan@acmebiotech.com,Finance,CC-120 Finance,E1018,London,GB,Active,2023-01-23,,FP&A Manager
+E1006,Priya Shah,Priya,priya.shah@acmebiotech.com,Engineering,CC-310 Engineering,E1020,Bengaluru,IN,Active,2021-03-08,,ML Platform Engineer
+E1007,Daniel Kim,Dan,dkim@acmebiotech.com,Marketing,CC-430 Growth,E1017,Seattle,US,Active,2022-10-31,,Growth Marketing Manager
+E1008,Olivia Martin,Liv,olivia.martin@acmebiotech.com,Legal,CC-140 Legal,E1018,Chicago,US,Inactive,2018-05-21,2025-04-01,Commercial Counsel
+E1009,Marcus Johnson,Marcus,marcus.johnson@acmebiotech.com,Customer Success,CC-510 Customer,E1017,Atlanta,US,Active,2020-02-10,,"Director, Customer Success"
+E1010,Aisha Khan,Aisha,aisha.khan@acmebiotech.com,Partnerships,CC-460 Partnerships,E1017,Dubai,AE,Active,2021-08-16,,Partner Lead
+E1011,Henry Liu,Henry,henry.liu@acmebiotech.com,Operations,CC-160 Ops,E1018,San Francisco,US,Active,2024-02-05,,Travel Operations Analyst
+E1012,Emma Wilson,Emma,emma.wilson@acmebiotech.com,People,CC-130 People,E1018,Boston,US,Active,2022-07-11,,People Programs Lead
+E1013,Ava Núñez,Ava,ava.nunez@acmebiotech.com,Sales,CC-410 Revenue,E1017,Madrid,ES,Active,2023-06-12,,Account Executive
+E1014,Samuel Okafor,Sam,sam.okafor@acmebiotech.com,Engineering,CC-310 Engineering,E1020,London,GB,Active,2020-09-28,,Engineering Manager
+E1015,Grace Lee,Grace,grace.lee@acmebiotech.com,Executive,CC-100 Executive,,Los Angeles,US,Active,2017-03-13,,Chief Operating Officer
+E1016,Tom Nguyen,Tom,tom.nguyen@acmebiotech.com,Marketing,CC-430 Growth,E1007,Austin,US,Active,2024-09-09,,Marketing Associate
+E1017,Rachel Green,Rachel,rachel.green@acmebiotech.com,Sales,CC-410 Revenue,,London,GB,Active,2016-01-11,,VP Sales
+E1018,Karim Haddad,Karim,k.haddad@acmebiotech.com,Finance,CC-120 Finance,,Paris,FR,Active,2019-06-03,,Controller
+E1019,Chloé Dubois,Chloé,chloe.dubois@acmebiotech.com,Sales,CC-410 Revenue,E1017,Paris,FR,Active,2023-11-20,,Account Manager
+E1020,Victor Alvarez,Victor,victor.alvarez@acmebiotech.com,Engineering,CC-310 Engineering,,Mexico City,MX,Active,2020-01-27,,VP Engineering
+E1021,Mei Tan,Mei,mei.tan@acmebiotech.com,Product,CC-220 Product,,Singapore,SG,Active,2018-04-09,,VP Product
+E1022,John Smith,John,jsmith@acmebiotech.com,Support,CC-520 Support,E1009,Denver,US,Active,2024-03-18,,Support Enablement Specialist
+E1023,Jon Smyth,Jon,jon.smyth@acmebiotech.com,Support,CC-520 Support,E1009,Dallas,US,Active,2024-04-01,,Support Enablement Specialist
+E1024,Mariam Al-Fayed,Mariam,mariam.alfayed@acmebiotech.com,Product,CC-220 Product,E1021,Cairo,EG,Active,2023-12-04,,Product Designer

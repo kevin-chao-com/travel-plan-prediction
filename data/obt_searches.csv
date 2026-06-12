@@ -1,0 +1,22 @@
+search_id,search_timestamp,requester_name,requester_email,origin_airport,destination_airport,depart_date,return_date,lowest_airfare_usd,selected_airfare_usd,selected_hotel_rate_usd,policy_status,result_count,action,booking_ref_hint,search_notes
+S4001,2025-02-04 13:48,Maya Chen,maya.chen@acmebiotech.com,LHR,SFO,2025-03-03,2025-03-08,790,875,285,In policy,42,Booked,H8M2KQ,Selected nonstop despite lower connecting option.
+S4002,2025-02-17 13:48,Ethan Patel,e.patel@acmebiotech.com,JFK,AUS,2025-03-10,2025-03-13,498,735,280,In policy,31,Booked,AUS4QP,Selected flight arrives before 11:00 workshop.
+S4003,2025-03-08 09:12,Sofia Rossi,sofia.rossi@acmebiotech.com,AMS,BER,2025-03-15,2025-03-17,295,330,225,In policy,19,Agent booked,BER8CT,Traveler profile had legacy domain.
+S4004,2025-03-06 09:12,Noah Garcia,noah.garcia@acmebiotech.com,SFO,JFK,2025-03-20,2025-03-24,820,900,330,In policy,36,Booked,NYC2HX,
+S4005,2025-03-26 13:48,Priya Shah,priya.shah@acmebiotech.com,BLR,LHR,2025-04-02,2025-04-07,1320,1410,210,In policy,28,Agent booked,LON7ML,
+S4006,2025-03-14 13:48,Daniel Kim,dkim@acmebiotech.com,SEA,LAS,2025-04-10,2025-04-13,405,565,489,Exception,18,Booked,LAS9GO,Hotel over cap; conference block sold out except premium rooms.
+S4007,2025-04-08 13:48,Olivia Martin,olivia.martin@acmebiotech.com,ORD,LHR,2025-04-18,2025-04-22,1050,1190,355,In policy,22,Agent booked,LON3LM,Traveler profile not deactivated in OBT.
+S4008,2025-04-18 09:12,Marcus Johnson,marcus.johnson@acmebiotech.com,ATL,MIA,2025-04-25,2025-04-30,520,620,280,In policy,25,Booked,MIA5CS,Hotel search originally requested Apr 25-May 2.
+S4009,2025-04-25 09:12,Aisha Khan,aisha.khan@acmebiotech.com,DXB,SIN,2025-05-05,2025-05-09,1650,1780,310,In policy,24,Agent booked,SIN1PK,
+S4010,2025-05-02 13:48,Emma Wilson,emma.wilson@acmebiotech.com,BOS,DEN,2025-05-12,2025-05-15,390,420,205,In policy,17,Abandoned,,Search abandoned; airfare later appears on card without TMC booking.
+S4011,2025-05-09 13:48,Ava Nunez,ava.nunez@acmebiotech.com,MAD,LIS,2025-05-19,2025-05-21,210,240,180,In policy,20,Booked,LIS6AE,
+S4012,2025-04-29 13:48,Sam Okafor,sam.okafor@acmebiotech.com,LHR,MUC,2025-05-26,2025-05-29,390,420,210,In policy,26,Agent booked,MUC5SO,
+S4013,2025-05-20 09:12,Grace Lee,grace.lee@acmebiotech.com,LAX,HND,2025-06-03,2025-06-09,1880,1920,365,In policy,16,Rebooked,JPN7GL,Return changed after board-prep meeting moved.
+S4014,2025-05-21 17:31,Mei Tan,mei.tan@acmebiotech.com,SIN,SYD,2025-06-11,2025-06-15,980,980,295,In policy,21,Held,SYD2MT,Hotel confirmed; air remained held.
+S4015,2025-06-07 13:48,John Smith,jsmith@acmebiotech.com,DEN,DFW,2025-06-17,2025-06-19,350,350,210,In policy,19,Booked,DAL4JS,Support training Dallas.
+S4016,2025-05-21 17:31,Jon Smyth,jon.smyth@acmebiotech.com,DAL,DEN,2025-06-17,2025-06-19,315,315,198,In policy,19,Booked,DEN4JY,Support training Denver.
+S4017,2025-06-13 13:48,Karim Haddad,k.haddad@acmebiotech.com,CDG,LHR,2025-06-23,2025-06-25,275,0,315,In policy,12,Abandoned,,Traveler used rail; no flight expected.
+S4018,2025-03-20 13:48,Lina Morgan,lina.morgan@acmebiotech.com,LHR,CDG,2025-03-27,2025-03-28,180,0,260,In policy,34,Abandoned,,Looked up Paris finance meeting; meeting moved to Zoom.
+S4019,2025-04-03 17:31,Tom Nguyen,tom.nguyen@acmebiotech.com,AUS,LAS,2025-04-10,2025-04-13,275,0,240,In policy,22,Abandoned,,Marketing associate searched same offsite but did not travel.
+S4020,2025-05-01 17:31,Chloe Dubois,chloe.dubois@acmebiotech.com,CDG,LHR,2025-05-28,2025-05-30,210,0,300,In policy,27,Abandoned,,
+S4021,2025-02-19 09:12,Henry Liu,henry.liu@acmebiotech.com,SFO,LAX,2025-03-12,2025-03-13,120,0,190,In policy,9,Test search,,Travel ops system test account; no trip.
