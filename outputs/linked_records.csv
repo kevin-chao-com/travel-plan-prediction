@@ -1,0 +1,177 @@
+source,record_id,employee_id,trip_id,confidence,rationale
+tmc_bookings,B1001,UNKNOWN,T0001,0.75,TMC trip anchor; identity=no strong HR match
+tmc_bookings,B1002,E1002,T0002,1.0,TMC trip anchor; identity=employee_id+email+strong_name
+tmc_bookings,B1003,E1003,T0003,0.75,TMC trip anchor; identity=employee_id+strong_name
+tmc_bookings,B1004,E1004,T0004,1.0,TMC trip anchor; identity=employee_id+email+strong_name
+tmc_bookings,B1005,UNKNOWN,T0005,0.75,TMC trip anchor; identity=no strong HR match
+tmc_bookings,B1006,E1007,T0006,0.97,TMC trip anchor; identity=employee_id+email+fuzzy_name
+tmc_bookings,B1007,E1008,T0007,0.97,TMC trip anchor; identity=employee_id+email+fuzzy_name
+tmc_bookings,B1008,E1009,T0008,0.85,TMC trip anchor; identity=employee_id+email
+tmc_bookings,B1009,E1010,T0009,0.97,TMC trip anchor; identity=employee_id+email+fuzzy_name
+tmc_bookings,B1011,UNKNOWN,T0010,0.75,TMC trip anchor; identity=no strong HR match
+tmc_bookings,B1012,E1014,T0011,0.75,TMC trip anchor; identity=email+fuzzy_name
+tmc_bookings,B1013,E1015,T0012,0.85,TMC trip anchor; identity=employee_id+email
+tmc_bookings,B1014,E1021,T0013,1.0,TMC trip anchor; identity=employee_id+email+strong_name
+tmc_bookings,B1015,E1022,T0014,1.0,TMC trip anchor; identity=employee_id+email+strong_name
+tmc_bookings,B1016,E1023,T0015,1.0,TMC trip anchor; identity=employee_id+email+strong_name
+tmc_bookings,B1018,UNKNOWN,T0016,0.75,TMC trip anchor; identity=no strong HR match
+flight_segments,F1001,UNKNOWN,T0001,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1002,UNKNOWN,T0001,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1003,E1002,T0002,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1004,E1002,T0002,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1005,E1003,T0003,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1006,E1003,T0003,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1007,E1004,T0004,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1008,E1004,T0004,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1009,UNKNOWN,T0005,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1010,UNKNOWN,T0005,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1011,E1007,T0006,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1012,E1007,T0006,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1013,E1008,T0007,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1014,E1008,T0007,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1015,E1009,T0008,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1016,E1009,T0008,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1017,E1010,T0009,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1018,E1010,T0009,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1019,UNKNOWN,T0010,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1020,UNKNOWN,T0010,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1021,E1014,T0011,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1022,E1014,T0011,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1023,E1022,T0014,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1024,E1022,T0014,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1025,E1023,T0015,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1026,E1023,T0015,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1027,UNKNOWN,T0016,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1028,UNKNOWN,T0016,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1029,E1015,T0012,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1030,E1015,T0012,0.85,record_locator+booking_id+flight_date; status=canceled
+flight_segments,F1031,E1015,T0012,1.0,record_locator+booking_id+flight_date; status=ticketed
+flight_segments,F1032,E1021,T0013,0.85,record_locator+booking_id+flight_date; status=held
+flight_segments,F1033,E1021,T0013,0.85,record_locator+booking_id+flight_date; status=held
+hotel_stays,H1001,UNKNOWN,T0001,0.65,booking_id+hotel_dates
+hotel_stays,H1002,E1002,T0002,0.65,booking_id+hotel_dates
+hotel_stays,H1003,E1003,T0003,0.65,booking_id+hotel_dates
+hotel_stays,H1004,E1004,T0004,0.65,booking_id+hotel_dates
+hotel_stays,H1005,UNKNOWN,T0005,0.65,booking_id+hotel_dates
+hotel_stays,H1006,E1007,T0006,0.65,booking_id+hotel_dates
+hotel_stays,H1007,E1008,T0007,0.65,booking_id+hotel_dates
+hotel_stays,H1008,E1009,T0008,0.65,booking_id+hotel_dates
+hotel_stays,H1009,E1010,T0009,0.65,booking_id+hotel_dates
+hotel_stays,H1010,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match
+hotel_stays,H1011,UNKNOWN,T0010,0.65,booking_id+hotel_dates
+hotel_stays,H1012,E1014,T0011,0.65,booking_id+hotel_dates
+hotel_stays,H1013,E1015,T0012,0.65,booking_id+hotel_dates
+hotel_stays,H1014,E1021,T0013,0.65,booking_id+hotel_dates
+hotel_stays,H1015,E1022,T0014,0.65,booking_id+hotel_dates
+hotel_stays,H1016,E1023,T0015,0.65,booking_id+hotel_dates
+hotel_stays,H1017,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match
+hotel_stays,H1018,UNKNOWN,T0016,0.65,booking_id+hotel_dates
+obt_searches,S4001,UNKNOWN,T0001,0.45,booking_ref_hint; action=booked
+obt_searches,S4002,E1002,T0002,0.45,booking_ref_hint; action=booked
+obt_searches,S4003,E1003,T0003,0.45,booking_ref_hint; action=agent booked
+obt_searches,S4004,E1004,T0004,0.45,booking_ref_hint; action=booked
+obt_searches,S4005,UNKNOWN,T0005,0.45,booking_ref_hint; action=agent booked
+obt_searches,S4006,E1007,T0006,0.45,booking_ref_hint; action=booked
+obt_searches,S4007,E1008,T0007,0.45,booking_ref_hint; action=agent booked
+obt_searches,S4008,E1009,T0008,0.45,booking_ref_hint; action=booked
+obt_searches,S4009,E1010,T0009,0.45,booking_ref_hint; action=agent booked
+obt_searches,S4010,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match; action=abandoned
+obt_searches,S4011,UNKNOWN,T0010,0.45,booking_ref_hint; action=booked
+obt_searches,S4012,E1014,T0011,0.45,booking_ref_hint; action=agent booked
+obt_searches,S4013,E1015,T0012,0.45,booking_ref_hint; action=rebooked
+obt_searches,S4014,E1021,T0013,0.45,booking_ref_hint; action=held
+obt_searches,S4015,E1022,T0014,0.45,booking_ref_hint; action=booked
+obt_searches,S4016,E1023,T0015,0.45,booking_ref_hint; action=booked
+obt_searches,S4017,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match; action=abandoned
+obt_searches,S4018,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match; action=abandoned
+obt_searches,S4019,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match; action=abandoned
+obt_searches,S4020,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match; action=abandoned
+obt_searches,S4021,UNKNOWN,NO_TRIP,0.0,no reliable TMC trip match; action=test search
+card_transactions,C2001,E1001,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2002,E1001,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2003,E1001,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2004,E1002,T0002,0.6,employee+transaction_date
+card_transactions,C2005,E1002,T0002,0.75,employee+transaction_date+city_context
+card_transactions,C2006,E1002,NO_TRIP,0.8,non-travel merchant/category
+card_transactions,C2007,E1003,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2008,E1003,T0003,0.75,employee+transaction_date+city_context
+card_transactions,C2009,E1004,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2010,E1004,T0004,0.75,employee+transaction_date+city_context
+card_transactions,C2011,E1004,NO_TRIP,0.8,non-travel merchant/category
+card_transactions,C2012,E1006,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2013,E1006,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2014,E1007,T0006,0.6,employee+transaction_date
+card_transactions,C2015,E1007,T0006,0.75,employee+transaction_date+city_context
+card_transactions,C2016,E1007,T0006,0.75,employee+transaction_date+city_context
+card_transactions,C2017,E1008,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2018,E1008,T0007,0.75,employee+transaction_date+city_context
+card_transactions,C2019,E1009,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2020,E1009,T0008,0.75,employee+transaction_date+city_context
+card_transactions,C2021,E1010,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2022,E1010,T0009,0.75,employee+transaction_date+city_context
+card_transactions,C2023,E1010,NO_TRIP,0.8,non-travel merchant/category
+card_transactions,C2024,E1010,T0009,0.75,employee+transaction_date+city_context
+card_transactions,C2025,E1012,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2026,E1012,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2027,UNKNOWN,NO_TRIP,0.3,"travel-like card, no reliable trip match; identity=no strong HR match"
+card_transactions,C2028,UNKNOWN,NO_TRIP,0.3,"travel-like card, no reliable trip match; identity=no strong HR match"
+card_transactions,C2029,E1014,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2030,E1014,T0011,0.75,employee+transaction_date+city_context
+card_transactions,C2031,E1015,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2032,E1015,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2033,E1015,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2034,E1015,T0012,0.75,employee+transaction_date+city_context
+card_transactions,C2035,E1015,NO_TRIP,0.8,non-travel merchant/category
+card_transactions,C2036,E1021,T0013,0.75,employee+transaction_date+city_context
+card_transactions,C2037,E1022,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2038,E1022,T0014,0.75,employee+transaction_date+city_context
+card_transactions,C2039,E1023,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2040,E1023,T0015,0.75,employee+transaction_date+city_context
+card_transactions,C2041,E1018,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2042,E1018,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2043,E1018,NO_TRIP,0.8,non-travel merchant/category
+card_transactions,C2044,E1005,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+card_transactions,C2045,E1011,NO_TRIP,0.6,"travel-like card, no reliable trip match; identity=email+strong_name"
+expense_reports,X3001,UNKNOWN,T0001,0.45,locator_in_expense_text
+expense_reports,X3002,UNKNOWN,T0001,0.8,locator_in_expense_text+transaction_date+city_context
+expense_reports,X3003,UNKNOWN,T0001,0.8,locator_in_expense_text+transaction_date+city_context
+expense_reports,X3004,E1002,T0002,1.0,employee+locator_in_expense_text+transaction_date
+expense_reports,X3005,E1002,T0002,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3006,E1002,T0002,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3007,E1003,T0003,0.8,employee+locator_in_expense_text
+expense_reports,X3008,E1003,T0003,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3009,E1003,T0003,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3010,E1004,T0004,0.8,employee+locator_in_expense_text
+expense_reports,X3011,E1004,T0004,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3012,UNKNOWN,T0005,0.45,locator_in_expense_text
+expense_reports,X3013,UNKNOWN,T0005,0.8,locator_in_expense_text+transaction_date+city_context
+expense_reports,X3014,E1007,T0006,1.0,employee+locator_in_expense_text+transaction_date
+expense_reports,X3015,E1007,T0006,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3016,E1007,T0006,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3017,E1008,T0007,0.8,employee+locator_in_expense_text
+expense_reports,X3018,E1008,T0007,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3019,E1009,T0008,0.8,employee+locator_in_expense_text
+expense_reports,X3020,E1009,T0008,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3021,E1010,T0009,0.8,employee+locator_in_expense_text
+expense_reports,X3022,E1010,T0009,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3023,E1010,T0009,1.0,employee+locator_in_expense_text+transaction_date
+expense_reports,X3024,E1010,T0009,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3025,E1012,NO_TRIP,1.0,expense identity only or no reliable trip match; identity=employee_id+email+strong_name
+expense_reports,X3026,E1012,NO_TRIP,1.0,expense identity only or no reliable trip match; identity=employee_id+email+strong_name
+expense_reports,X3027,UNKNOWN,T0010,0.45,locator_in_expense_text
+expense_reports,X3028,UNKNOWN,T0010,0.8,locator_in_expense_text+transaction_date+city_context
+expense_reports,X3029,E1014,T0011,0.8,employee+locator_in_expense_text
+expense_reports,X3030,E1014,T0011,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3031,E1015,T0012,0.8,employee+locator_in_expense_text
+expense_reports,X3032,E1015,T0012,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3033,E1015,T0012,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3034,E1021,T0013,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3035,E1022,T0014,0.8,employee+locator_in_expense_text
+expense_reports,X3036,E1022,T0014,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3037,E1023,T0015,0.8,employee+locator_in_expense_text
+expense_reports,X3038,E1023,T0015,1.0,employee+locator_in_expense_text+transaction_date+city_context
+expense_reports,X3039,E1018,NO_TRIP,1.0,expense identity only or no reliable trip match; identity=employee_id+email+strong_name
+expense_reports,X3040,E1018,NO_TRIP,1.0,expense identity only or no reliable trip match; identity=employee_id+email+strong_name
+expense_reports,X3041,E1018,NO_TRIP,1.0,expense identity only or no reliable trip match; identity=employee_id+email+strong_name
+expense_reports,X3042,UNKNOWN,T0016,0.6,locator_in_expense_text+city_context
+expense_reports,X3043,E1005,NO_TRIP,1.0,expense identity only or no reliable trip match; identity=employee_id+email+strong_name
